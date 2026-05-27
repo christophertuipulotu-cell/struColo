@@ -43,29 +43,39 @@ body, html {
   flex-direction: row;
   height: 30%;
   gap: 50px;
+  padding: 20px;
 }
 
 .menu{
   order: 1;
   background-color: darkblue;
+  border-radius: 8px;
   padding: 20px;
   width: 50%;
+  box-shadow: 0 4px 10px rgba(1, 7, 66, 0.836);
   
 }
 
 .content{
+  display: flex;
+  flex-direction: row;
   order: 2;
-  background-color: rgb(151, 129, 2);
+
+  background-color: lightgrey;
+  border-radius: 8px;
   padding: 50px;
   width: 50%;
+  gap: 76px;
+  height: 600px;
 
 }
 
 /* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
 .flip-card {
+  flex-direction: row;
   background-color: transparent;
   width: 300px;
-  height: 200px;
+  height: 300px;
   border: 1px solid #f1f1f1;
   perspective: 1000px; /* Remove this if you don't want the 3D effect */
 }
@@ -96,6 +106,8 @@ body, html {
 
 /* Style the front side (fallback if image is missing) */
 .flip-card-front {
+  width: 200px;
+  height: 200px;
   background-color: #bbb;
   color: black;
 }
@@ -105,4 +117,25 @@ body, html {
   background-color: dodgerblue;
   color: white;
   transform: rotateY(180deg);
+}
+
+
+
+
+.menu a {
+  display: block;
+  color: black;
+  text-decoration: none;
+  padding: 12px;
+  border-radius: 8px;
+  background-color: cadetblue;
+  transition: 0.3s;
+
+}
+
+
+
+.menu a:hover {
+  background-color: aquamarine;
+  color: darkslategrey;
 }
