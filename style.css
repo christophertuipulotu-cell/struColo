@@ -1,0 +1,172 @@
+body, html {
+  color: darkblue;
+  height: 100%;
+  margin: 0;
+  font-family: 'Jacques Francois Shadow';font-size: 22px;
+}
+
+.hero-image {
+  background-image: linear-gradient(rgba(1, 7, 66, 0.836), rgba(0, 0, 0, 0.5)), url("City\ of\ Crips.jpg");
+  height: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: hsl(239, 88%, 20%);
+}
+
+.hero-text button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 10px 25px;
+  color: black;
+  background-color: #ddd;
+  text-align: center;
+  cursor: pointer;
+}
+
+.hero-text button:hover {
+  background-color: #555;
+  color: white;
+}
+
+.container{
+  display: flex;
+  flex-direction: row;
+  height: 30%;
+  gap: 50px;
+  padding: 20px;
+}
+
+.menu{
+  order: 1;
+  background-color: darkblue;
+  border-radius: 8px;
+  padding: 20px;
+  width: 50%;
+  box-shadow: 0 4px 10px rgba(1, 7, 66, 0.836);
+  
+}
+
+.content{
+  display: flex;
+  flex-direction: column;
+  order: 2;
+  justify-content: center;
+  align-items: center;
+  background-color: lightgrey;
+  border-radius: 8px;
+  padding: 40px;
+  width: 16%;
+  gap: 30px;
+  height: 400px;
+  top: 50%;
+  left: 35%;
+}
+
+
+
+.menu a {
+  display: block;
+  color: black;
+  text-decoration: none;
+  padding: 12px;
+  border-radius: 8px;
+  background-color: rgb(6, 20, 100);
+  transition: 0.3s;
+
+}
+
+
+
+.menu a:hover {
+  background-color: aquamarine;
+  color: darkslategrey;
+}
+
+
+.hero-image {
+  background-image: linear-gradient(rgba(1, 7, 66, 0.836), rgba(0, 0, 0, 0.5)), url("Images/City\ of\ Crips.jpg");
+  height: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+  .hero-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgba(3, 5, 105, 0.815);
+  }
+  
+  .hero-text button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 10px 25px;
+    color: black;
+    background-color: #ddd;
+    text-align: center;
+    cursor: pointer;
+  }
+  
+  .hero-text button:hover {
+    background-color: #555;
+    color: rgba(5, 15, 168, 0.733);
+  }
+
+  body {
+    margin: 5px;
+    padding: 25px;
+  }
+  
+  ul {
+    list-style-type: none;
+    margin: 4px;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333333;
+  }
+  
+  ul li {
+    float: left;
+  }
+  
+  ul li a {
+    display: block;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  ul li a:hover {
+    background-color: #111111;
+  }
+  
+
+ h1{
+  font-family: 'Jacques Francois Shadow';font-size: 22px;
+ }
+
+ .footer {
+  text-align: center;
+  margin: 6px;
+  padding: 3px;
+  background-color: darkblue;
+  color: #ddd;
+  }
+  
